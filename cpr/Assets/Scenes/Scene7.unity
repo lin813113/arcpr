@@ -254,8 +254,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 528865309}
-        m_TargetAssemblyTypeName: buttonclick, Assembly-CSharp
-        m_MethodName: TaskOnClick7
+        m_TargetAssemblyTypeName: ChangeScenes, Assembly-CSharp
+        m_MethodName: scene7
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -453,7 +453,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 528865303}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 133bb2f55d5a58b48a76e4cd2e1e4f46, type: 3}
+  m_Script: {fileID: 11500000, guid: 2efc3f73230728f40ab192caf7d9825e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &705507993
@@ -769,7 +769,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: scene8
+  m_text: "\u7D50\u675F\u7A0B\u5F0F"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a0b5032b8494b4644a32ce61de8b90f4, type: 2}
   m_sharedMaterial: {fileID: 3014208843794905337, guid: a0b5032b8494b4644a32ce61de8b90f4,

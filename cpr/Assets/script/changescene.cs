@@ -29,7 +29,7 @@ public class changescene : MonoBehaviour
         
         if (videoplay == false)
         {
-            UnityEngine.SceneManagement.SceneManager.LoadScene(0);
+            UnityEngine.SceneManagement.SceneManager.LoadScene(7);
         }
     }
 }
