@@ -8,7 +8,7 @@ public class SceneControl : MonoBehaviour
     public void PlayGame()
     {
         //©I¥s²Ä¤@³õ´º
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(1);
     }
     public void QuitGame()
     {
