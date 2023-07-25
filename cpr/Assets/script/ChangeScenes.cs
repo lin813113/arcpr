@@ -12,9 +12,13 @@ public class ChangeScenes : MonoBehaviour
         UnityEngine.SceneManagement.SceneManager.LoadScene(1);
     }
 
-    public void scene2()
+    public void scene2U()
     {
         UnityEngine.SceneManagement.SceneManager.LoadScene(2);
+    }
+    public void scene2D()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene(0);
     }
     public void scene3Y()
     {
