@@ -6,17 +6,16 @@ using UnityEngine.SceneManagement;
 
 public class ChangeScenes : MonoBehaviour
 {
-
-    public void scene1()
+    public void home()
     {
-        UnityEngine.SceneManagement.SceneManager.LoadScene(1);
+        UnityEngine.SceneManagement.SceneManager.LoadScene(0);
     }
 
-    public void scene2U()
+    public void scene2next()
     {
         UnityEngine.SceneManagement.SceneManager.LoadScene(2);
     }
-    public void scene2D()
+    public void scene2back()
     {
         UnityEngine.SceneManagement.SceneManager.LoadScene(0);
     }
@@ -28,9 +27,21 @@ public class ChangeScenes : MonoBehaviour
     {
         UnityEngine.SceneManagement.SceneManager.LoadScene(4);
     }
-    public void scene5()
+    public void scene3back()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene(1);
+    }
+    public void scene4()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene(2);
+    }
+    public void scene5next()
     {
         UnityEngine.SceneManagement.SceneManager.LoadScene(5);
+    }
+    public void scene5back()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene(2);
     }
     public void scene6Y()
     {
@@ -40,17 +51,24 @@ public class ChangeScenes : MonoBehaviour
     {
         UnityEngine.SceneManagement.SceneManager.LoadScene(7);
     }
+    public void scene6back()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene(4);
+    }
     public void scene7()
     {
-        UnityEngine.SceneManagement.SceneManager.LoadScene(0);
+        UnityEngine.SceneManagement.SceneManager.LoadScene(5);
     }
-    public void scene8()
+    public void scene8next()
     {
         UnityEngine.SceneManagement.SceneManager.LoadScene(8);
     }
-
-    public void scene9()
+    public void scene8back()
     {
-        UnityEngine.SceneManagement.SceneManager.LoadScene(0);
+        UnityEngine.SceneManagement.SceneManager.LoadScene(5);
+    }
+    public void scene9back()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene(7);
     }
 }

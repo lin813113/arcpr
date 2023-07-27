@@ -7,7 +7,6 @@ public class closepanel : MonoBehaviour
 {
     public GameObject Panel;
     public GameObject cube;
-    public GameObject Button2;
     public VideoPlayer video;
 
     void Start()
@@ -19,7 +18,6 @@ public class closepanel : MonoBehaviour
     {
         Panel.SetActive(false);
         cube.SetActive(true);
-        Button2.SetActive(true);
         video.Play();
     }
 }
